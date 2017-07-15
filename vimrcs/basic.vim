@@ -140,6 +140,9 @@ endif
 " Add a bit extra margin to the left
 set foldcolumn=1
 
+" Enable Mouse action
+" can use shift+mouse to select word as usual
+set mouse=n
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
