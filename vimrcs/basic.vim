@@ -144,6 +144,9 @@ set foldcolumn=1
 " can use shift+mouse to select word as usual
 set mouse=n
 
+" Highligth word under cursor
+:autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
