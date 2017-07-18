@@ -52,6 +52,7 @@ vim-pug https://github.com/digitaltoad/vim-pug
 vim-yankstack https://github.com/maxbrunsfeld/vim-yankstack
 lightline.vim https://github.com/itchyny/lightline.vim
 tagbar https://github.com/majutsushi/tagbar
+vim-javascript https://github.com/pangloss/vim-javascript
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
