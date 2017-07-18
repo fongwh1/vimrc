@@ -192,6 +192,15 @@ set nobackup
 set nowb
 set noswapfile
 
+" Show diff with saved file
+function! s:DiffWithSaved()
+  let filetype=&ft
+  diffthis
+  vnew | r # | normal! 1Gdd
+  diffthis
+  exe "setlocal bt=nofile bh=wipe nobl noswf ro ft=" . filetype
+endfunction
+com! DiffSaved call s:DiffWithSaved()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
