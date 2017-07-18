@@ -121,7 +121,7 @@ endif
 vnoremap <silent> gv :call VisualSelection('gv', '')<CR>
 
 " Open Ack and put the cursor in the right position
-map <leader>gg :Ack
+map <leader>gg :Ack 
 
 " Search current word within current file
 map <leader>gf :Ack <cword> % <CR>
