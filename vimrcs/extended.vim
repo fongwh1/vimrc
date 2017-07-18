@@ -121,10 +121,13 @@ endif
 vnoremap <silent> gv :call VisualSelection('gv', '')<CR>
 
 " Open Ack and put the cursor in the right position
-map <leader>gg :Ack 
+map <leader>gh :Ack 
 
 " Search current word within current file
 map <leader>gf :Ack <cword> % <CR>
+
+" Search current word globally
+map <leader>gg :Ack <cword><CR>
 
 " When you press <leader>r you can search and replace the selected text
 vnoremap <silent> <leader>r :call VisualSelection('replace', '')<CR>
