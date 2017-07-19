@@ -53,6 +53,7 @@ vim-yankstack https://github.com/maxbrunsfeld/vim-yankstack
 lightline.vim https://github.com/itchyny/lightline.vim
 tagbar https://github.com/majutsushi/tagbar
 vim-javascript https://github.com/pangloss/vim-javascript
+cscope_maps https://github.com/chazy/cscope_maps
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
