@@ -114,7 +114,7 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Use the the_silver_searcher if possible (much faster than Ack)
 if executable('ag')
-  let g:ackprg = 'ag --vimgrep --smart-case --ignore tags'
+  let g:ackprg = 'ag --vimgrep --smart-case --ignore="tags" --ignore="cscope*"'
 endif
 
 " When you press gv you Ack after the selected text
