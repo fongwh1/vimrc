@@ -206,7 +206,10 @@ com! DiffSaved call s:DiffWithSaved()
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Use spaces instead of tabs
-set expandtab
+" set expandtab
+
+" Use tab as tab
+set noexpandtab
 
 " Be smart when using tabs ;)
 set smarttab
