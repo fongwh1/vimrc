@@ -40,8 +40,11 @@ if has("cscope")
     " if you want the reverse search order.
     set csto=0
 
+    " add Gtags file if it is existed
+    if filereadable("GTAGS")
+        cs add GTAGS
     " add any cscope database in current directory
-    if filereadable("cscope.out")
+    elseif filereadable("cscope.out")
         cs add cscope.out  
     " else add the database pointed to by environment variable 
     elseif $CSCOPE_DB != ""
