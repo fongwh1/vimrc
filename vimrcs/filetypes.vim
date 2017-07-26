@@ -75,3 +75,8 @@ endif
 " => Twig section
 """"""""""""""""""""""""""""""
 autocmd BufRead *.twig set syntax=html filetype=html
+
+""""""""""""""""""""""""""""""
+" => C/C++ section
+""""""""""""""""""""""""""""""
+au filetype c,cpp setlocal noexpandtab shiftwidth=4 softtabstop=4
