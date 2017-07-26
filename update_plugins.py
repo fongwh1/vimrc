@@ -55,7 +55,6 @@ tagbar https://github.com/majutsushi/tagbar
 vim-javascript https://github.com/pangloss/vim-javascript
 cscope_maps https://github.com/chazy/cscope_maps
 vim-misc https://github.com/xolox/vim-misc
-vim-easytags https://github.com/xolox/vim-easytags
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
