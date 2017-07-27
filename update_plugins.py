@@ -56,6 +56,7 @@ vim-javascript https://github.com/pangloss/vim-javascript
 cscope_maps https://github.com/chazy/cscope_maps
 vim-misc https://github.com/xolox/vim-misc
 gtags.vim https://github.com/vim-scripts/gtags.vim
+vim-easymotion https://github.com/easymotion/vim-easymotion
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
