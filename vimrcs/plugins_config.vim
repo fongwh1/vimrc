@@ -143,6 +143,13 @@ let g:go_fmt_command = "goimports"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Syntastic (syntax checker)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:syntastic_mode_map = {
+    \ "mode": "passive",
+    \ "active_filetypes": [],
+    \ "passive_filetypes": [] }
+
+let g:syntastic_check_on_wq = 0
+
 " Python
 let g:syntastic_python_checkers=['pyflakes']
 
@@ -168,3 +175,8 @@ nnoremap <silent> <leader>c :call SyntasticCheckCoffeescript()<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Fugitive
+" """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nnoremap <leader>gb :Gblame<cr>
