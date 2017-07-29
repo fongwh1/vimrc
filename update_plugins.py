@@ -57,6 +57,7 @@ cscope_maps https://github.com/chazy/cscope_maps
 vim-misc https://github.com/xolox/vim-misc
 gtags.vim https://github.com/vim-scripts/gtags.vim
 vim-easymotion https://github.com/easymotion/vim-easymotion
+vim-cpp-enhanced-highlight https://github.com/octol/vim-cpp-enhanced-highlight
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'

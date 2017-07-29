@@ -30,4 +30,14 @@ nmap <C-n> :cn<CR>
 nmap <C-p> :cp<CR>
 nmap <C-\><C-\> :GtagsCursor<CR>
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-cpp-enhanced-highlight 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"Highlighting of class scope
+let g:cpp_class_scope_highlight = 1
 
+"Highlighting of member variables
+let g:cpp_member_variable_highlight = 1
+
+"Highlighting of class names
+let g:cpp_class_decl_highlight = 1
