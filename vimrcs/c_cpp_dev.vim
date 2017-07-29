@@ -26,8 +26,8 @@ nmap <C-\><C-]> :Gtags<SPACE>
 nmap <C-\><C-f> :Gtags -f %<CR>
 nmap <F7> :GtagsCursor<CR>
 "nmap <F8> :Gozilla<CR>
-nmap <C-n> :cn<CR>
-nmap <C-p> :cp<CR>
+nmap <C-n> :cn<CR>:copen<CR>
+nmap <C-p> :cp<CR>:copen<CR>
 nmap <C-\><C-\> :GtagsCursor<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
