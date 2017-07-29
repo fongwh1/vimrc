@@ -223,7 +223,8 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
-
+" enable 256 colors
+set t_Co=256
 """"""""""""""""""""""""""""""
 " => Visual mode related
 """"""""""""""""""""""""""""""
