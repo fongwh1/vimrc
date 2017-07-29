@@ -180,3 +180,14 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 " => Fugitive
 " """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nnoremap <leader>gb :Gblame<cr>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => easymotion
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map fs <Plug>(easymotion-s)
+map fw <Plug>(easymotion-w)
+map fb <Plug>(easymotion-b)
+map fj <Plug>(easymotion-j)
+map fk <Plug>(easymotion-k)
+map fh <Plug>(easymotion-linebackward)
+map fl <Plug>(easymotion-lineforward)
