@@ -46,6 +46,9 @@ let g:cpp_class_decl_highlight = 1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-rtags
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:rtagsExcludeSysHeaders = 1
+let g:rtagsAutoLaunchRdm = 1
+
 " Use Quickfix instead of location list
 let g:rtagsUseLocationList = 0
 
