@@ -1,5 +1,5 @@
 if has('nvim') || (has('job') && has('channel'))
-    let s:rtagsAsync = 1
+    let s:rtagsAsync = 0
     let s:job_cid = 0
     let s:jobs = {}
     let s:result_stdout = {}
