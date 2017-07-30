@@ -24,11 +24,11 @@ let g:tagbar_autofocus = 1
 "nmap <F4> :cclose<CR>
 nmap <C-\><C-]> :Gtags<SPACE>
 nmap <C-\><C-f> :Gtags -f %<CR>
+nmap <C-\><C-\> :GtagsCursor<CR>
 nmap <F7> :GtagsCursor<CR>
 "nmap <F8> :Gozilla<CR>
 nmap <C-n> :cn<CR>:copen<CR>
 nmap <C-p> :cp<CR>:copen<CR>
-nmap <C-\><C-\> :GtagsCursor<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-cpp-enhanced-highlight 
@@ -41,3 +41,13 @@ let g:cpp_member_variable_highlight = 1
 
 "Highlighting of class names
 let g:cpp_class_decl_highlight = 1
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-rtags
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Use Quickfix instead of location list
+let g:rtagsUseLocationList = 0
+
+" Disable default key mapping
+" let g:rtagsUseDefaultMappings = 0
