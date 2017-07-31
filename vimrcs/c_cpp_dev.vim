@@ -8,7 +8,7 @@ let g:tagbar_left = 1
 let g:tagbar_autofocus = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => EasyTags 
+" => EasyTags
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " update tags to local tags file
 " let g:easytags_dynamic_files = 1
@@ -20,18 +20,20 @@ let g:tagbar_autofocus = 1
 " => Gtags.vim
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " TODO: learn more gtags usage
-"nmap <F2> :copen<CR>
-"nmap <F4> :cclose<CR>
 nmap <C-\><C-]> :Gtags<SPACE>
 nmap <C-\><C-f> :Gtags -f %<CR>
 nmap <C-\><C-\> :GtagsCursor<CR>
-nmap <F7> :GtagsCursor<CR>
 "nmap <F8> :Gozilla<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Quickfix
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nmap <F5> :cclose<CR>
 nmap <C-n> :cn<CR>:copen<CR>
 nmap <C-p> :cp<CR>:copen<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => vim-cpp-enhanced-highlight 
+" => vim-cpp-enhanced-highlight
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Highlighting of class scope
 let g:cpp_class_scope_highlight = 1
