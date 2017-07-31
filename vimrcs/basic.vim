@@ -393,3 +393,6 @@ function! <SID>BufcloseCloseIt()
      execute("bdelete! ".l:currentBufNum)
    endif
 endfunction
+
+" Auto remove trailing white space when saving
+autocmd FileType c,cpp,javascript,vim autocmd BufWritePre <buffer> %s/\s\+$//e
