@@ -26,13 +26,6 @@ nmap <C-\><C-\> :GtagsCursor<CR>
 "nmap <F8> :Gozilla<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Quickfix
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nmap <F5> :cclose<CR>
-nmap <C-n> :cn<CR>:copen<CR>
-nmap <C-p> :cp<CR>:copen<CR>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-cpp-enhanced-highlight
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Highlighting of class scope
@@ -56,3 +49,4 @@ let g:rtagsUseLocationList = 0
 
 " Disable default key mapping
 " let g:rtagsUseDefaultMappings = 0
+
