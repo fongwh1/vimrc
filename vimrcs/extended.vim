@@ -31,9 +31,9 @@ set guioptions-=L
 set background=dark
 let g:gruvbox_contrast_dark='hard'
 let g:lightline = {
-      \ 'colorscheme': 'gruvbox',
+      \ 'colorscheme': 'Dracula',
       \ }
-colorscheme gruvbox
+colorscheme dracula
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
