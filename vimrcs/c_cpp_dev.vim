@@ -50,3 +50,6 @@ let g:rtagsUseLocationList = 0
 " Disable default key mapping
 " let g:rtagsUseDefaultMappings = 0
 
+" Map ctags
+noremap <F1> <C-t>
+noremap <F2> <C-]>

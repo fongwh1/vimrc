@@ -131,6 +131,7 @@ map <leader>gf :Ack <cword> % <CR>
 
 " Search current word globally
 map <leader>gg :Ack <cword><CR>
+noremap <F4> :Ack <cword><CR>
 
 " When you press <leader>r you can search and replace the selected text
 vnoremap <silent> <leader>r :call VisualSelection('replace', '')<CR>
